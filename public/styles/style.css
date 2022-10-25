@@ -1,0 +1,183 @@
+:root {
+    --buttonColor: #6D6E73;
+    --bg-color: rgb(223, 230, 236);
+    --success: #44A17A;
+    --successShadow: #327A5B;
+    --danger: #DC4245;
+    --dangerShadow: #B13437;
+    --warning: #FBC23E;
+    --warningShadow: #CC9B31;
+    --strongWarning: #F37E3F;
+    --strongWarningShadow: #CA6633;
+    --main: #A361AD;
+    --mainShadow: #92499C;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(223, 230, 236);
+}
+
+label {
+    margin-right: 1rem;
+    font-weight: bold !important;
+}
+
+.vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: auto;
+}
+
+.header {
+    background-color: #6E6F73;
+    padding: 0.5rem 1.5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+    display: inline-block;
+}
+
+.page-item.active .page-link {
+    background-color: #8A5293 !important;
+    color: black;
+}
+
+.page-link {
+    color: black;
+}
+
+.actionBtn {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid;
+    border-width: 3px;
+    font-size: 1rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 8px;
+    color: var(--bg-color)
+}
+
+.primary {
+    color: black;
+    background-color: var(--main);
+}
+
+.secondary {
+    color: black;
+    background-color: var(--success);
+}
+
+.btn {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid;
+    border-width: 3px;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(66, 66, 66, .50);
+    text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
+}
+
+.btn:hover {
+    filter: brightness(85%);
+}
+
+.actionBtn:hover {
+    filter: brightness(85%);
+}
+
+.btn-success {
+    background-color: var(--success);
+}
+
+.btn-nav-search {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--main);
+}
+
+.btn-nav-chart {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--main);
+}
+
+.btn-nav-travelExpenses {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--main);
+}
+
+.btn-nav-transparencyReport {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--main);
+}
+
+.btn-nav-settings {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--main);
+}
+
+.btn-nav-logout {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #6E6F73;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: #FFFFFF;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(66, 66, 66, .3);
+}
+
+input:focus {
+    outline: none;
+}
